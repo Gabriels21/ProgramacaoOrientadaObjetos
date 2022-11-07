@@ -1,0 +1,23 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<h1>Gabriel App</h1>
+
+<nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#">Índice</a>
+                <a class="nav-link" href="#">Página 1</a>
+                <a class="nav-link" href="#">Página 2</a>
+                <a class="nav-link" href="#">Página 3</a>
+            </div>
+        </div>
+    </div>
+</nav>
+<button type="button" class="btn btn-outline-info"><a href="index.jsp">Índice</a></button>
+<button type="button" class="btn btn-outline-info"><a href="page1.jsp">Página 1</a></button>
+<button type="button" class="btn btn-outline-info"><a href="page2.jsp">Página 2</a></button>
+<button type="button" class="btn btn-outline-info"><a href="page3.jsp">Página 3</a></button>
+
